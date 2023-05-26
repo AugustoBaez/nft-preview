@@ -30,6 +30,10 @@ body {
 
 .amount {
   justify-content: space-between;
+}
+
+.amount,
+.avatar {
   align-items: center;
 }
 
@@ -69,10 +73,6 @@ body {
   color: hsl(178, 100%, 50%);
 }
 
-#lightblue {
-  color: hsl(215, 51%, 70%);
-}
-
 .avatar {
   border-style: solid;
   color: hsl(215, 32%, 27%);
@@ -80,7 +80,6 @@ body {
   border-bottom: none;
   border-right: none;
   border-left: none;
-  align-items: center;
 }
 
 .avatar img {
@@ -102,7 +101,14 @@ body {
   margin-top: 10%;
 }
 
-#lightblue,
-#cyan {
+.eth p {
   margin-left: 5px;
+}
+
+.time p {
+  margin-left: 5px;
+}
+
+p {
+  color: hsl(215, 51%, 70%);
 }
