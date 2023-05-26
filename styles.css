@@ -5,12 +5,11 @@
   font-family: "Hanken Grotesk", sans-serif;
   font-family: "Outfit", sans-serif;
 }
+
 body {
   background-color: hsl(217, 54%, 11%);
 }
-/* img {
-    height: 200px;
-} */
+
 .container {
   justify-content: center;
 }
@@ -20,43 +19,90 @@ body {
 .amount,
 .avatar,
 .eth,
-.time {
+.time,
+#creator {
   display: flex;
 }
 
+.eth {
+  width: 50%;
+}
+
+.amount {
+  justify-content: space-between;
+  align-items: center;
+}
+
+#creator {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#creator p {
+  padding-left: 5px;
+}
+
 .text {
-    /* padding-top: 35px;
-    padding-bottom: 35px; */
+  display: grid;
+  align-content: space-between;
+  height: 100%;
 }
 
 .card img {
   width: 100%;
-  height: 100%;
-  border-radius: 10px;
+  height: auto;
+  border-radius: 8px;
 }
 
 .card {
-  height: 450px;
-  width: 270px;
+  height: 460px;
+  width: 280px;
   flex-direction: column;
   background-color: hsl(216, 50%, 16%);
-  padding: 15px;
+  padding: 18px;
   border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
-/*   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 #cyan {
   color: hsl(178, 100%, 50%);
 }
+
 #lightblue {
   color: hsl(215, 51%, 70%);
 }
 
+.avatar {
+  border-style: solid;
+  color: hsl(215, 32%, 27%);
+  border-width: 1px;
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+  align-items: center;
+}
+
 .avatar img {
-  height: 10%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  border-radius: 30px;
+}
+
+.avatar img {
   width: 10%;
 }
+
 #white {
   color: white;
+}
+
+.text {
+  margin-top: 10%;
+}
+
+#lightblue,
+#cyan {
+  margin-left: 5px;
 }
